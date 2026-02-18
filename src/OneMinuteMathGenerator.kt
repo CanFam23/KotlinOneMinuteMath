@@ -44,7 +44,7 @@ class OneMinuteMathGenerator {
         minNum: Int,
         maxNum: Int,
         numQuestions: Int,
-        operations: List<String>
+        operations: List<Char>
     ): List<Problem> {
         val errorMsg = validateParams(minNum, maxNum, numQuestions, operations)
         if (errorMsg.isNotEmpty()) {
@@ -99,7 +99,7 @@ class OneMinuteMathGenerator {
         minNum: Int,
         maxNum: Int,
         numQuestions: Int,
-        operations: List<String>
+        operations: List<Char>
     ): String {
         if (minNum > maxNum) {
             return "Min number ($minNum) must be <= max number ($maxNum)"
