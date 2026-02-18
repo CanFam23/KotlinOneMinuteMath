@@ -18,7 +18,7 @@ const val maxNum = 100
 /**
  * Total time limit for the game, in seconds.
  */
-const val timeLimitSeconds = 10
+const val timeLimitSeconds = 60
 
 /**
  * Allowed operation selection characters:
