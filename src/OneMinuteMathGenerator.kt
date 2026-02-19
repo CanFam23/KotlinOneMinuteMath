@@ -133,6 +133,9 @@ class OneMinuteMathGenerator {
      *
      * - Start at n; if needed, increment until we find a number with at least one valid divisor.
      * - Pick a random divisor from the divisor set.
+     *
+     * ### Citation
+     * Adapted from: https://www.geeksforgeeks.org/dsa/find-all-factors-of-a-natural-number/
      */
     private fun generateRandomDivisor(n: Int): Pair<Int, Int> {
         var num = n

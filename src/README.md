@@ -55,13 +55,26 @@ Compile:
 ```bash
 kotlinc src/*.kt -include-runtime -d OMMG.jar
 ```
-This compiles both Kotlin files in the `src` folder.
+This compiles both Kotlin all in the `src` folder.
 
 Run:
 
 ```bash
 java -jar OMMG.jar
 ```
+
+**Or**
+```bash
+kotlinc src/*.kt
+```
+This compiles all Kotlin files in the `src` folder.
+
+Run:
+
+```bash
+kotlin MainKt
+```
+
 
 Adjust file names as needed depending on your project structure.
 

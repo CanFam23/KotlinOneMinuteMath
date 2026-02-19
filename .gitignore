@@ -8,6 +8,10 @@ out/
 
 *.jar
 
+META-INF/
+
+*.class
+
 ### Kotlin ###
 .kotlin
 
