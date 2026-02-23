@@ -50,6 +50,7 @@ The project hasn't been tested with other versions of Kotlin or Java
 
 Make sure you are in the root directory.
 
+#### Method 1
 Compile:
 
 ```bash
@@ -63,7 +64,8 @@ Run:
 java -jar OMMG.jar
 ```
 
-**Or**
+#### Method 2
+Compile:
 ```bash
 kotlinc src/*.kt
 ```
